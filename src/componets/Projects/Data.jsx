@@ -1,4 +1,4 @@
-import king from "../../assets/413422bb1515dc51150dd1a5b0927b6d-removebg.png";
+import king from "../../assets/king.png";
 import tomatix from "../../assets/original-46e3d3ab-e452-488d-a218-e8064ea10ea4.webp";
 import crisper from "../../assets/crisper.png";
 import arvr from "../../assets/1723362861389.gif";
