@@ -9,7 +9,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(import.meta.env.VITE_REACT_APP_SERVICEID,import.meta.env.VITE_REACT_APP_TEMPLATEID, form.current, import.meta.env.VITE_REACT_APP_PUBLICKEY)
+      .sendForm(
+        import.meta.env.VITE_REACT_APP_SERVICEID, // Ensure this is correct
+        import.meta.env.VITE_REACT_APP_TEMPLATEID, // Ensure this is correct
+        form.current,
+        import.meta.env.VITE_REACT_APP_PUBLICKEY // Ensure this is correct
+      )
       .then(
         () => {
           console.log('SUCCESS!');
@@ -20,6 +25,7 @@ const Contact = () => {
       );
     e.target.reset();
   };
+
 
   return (
     <div className="contact section" id="contact">
