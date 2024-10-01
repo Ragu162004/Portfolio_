@@ -17,7 +17,7 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
-    filter :grayscale(50%);
+    filter :grayscale(25%);
 }
 
 .about__box {

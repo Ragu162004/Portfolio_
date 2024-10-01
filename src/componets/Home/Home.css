@@ -87,7 +87,7 @@
     width: 300px;
     height: 300px;
     animation: profile_animation 7s ease-in-out infinite 0s;
-    filter: grayscale(50%);
+    filter: grayscale(25%);
 }
 
 @keyframes profile_animation {
