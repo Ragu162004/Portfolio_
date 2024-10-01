@@ -3,6 +3,9 @@ import tomatix from '../../assets/original-46e3d3ab-e452-488d-a218-e8064ea10ea4.
 import crisper from '../../assets/crisper.png'
 import arvr from '../../assets/1723362861389.gif'
 import Work4 from '../../assets/work4.png';
+import linkup from '../../assets/linkup.png'
+
+
 export const ProjectData =[
     {
         id:1,
@@ -27,7 +30,7 @@ export const ProjectData =[
     },
     {
         id:4,
-        image: Work4,
+        image: linkup,
         title: "LinkUp",
         category: "web",
         link:"https://www.linkedin.com/posts/ragulandiranm_linkup-activity-7210842144247361536-XDC3?utm_source=share&utm_medium=member_desktop"
