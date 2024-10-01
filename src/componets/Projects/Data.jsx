@@ -5,7 +5,7 @@ import arvr from '../../assets/1723362861389.gif'
 import Work4 from '../../assets/work4.png';
 import patientimg from '../../assets/WhatsApp Image 2024-06-11 at 20.46.05_1615eed4.jpg';
 import linkup from '../../assets/linkup.png'
-
+import terraform from '../../assets/terraform.png'
 
 export const ProjectData =[
     {
@@ -56,6 +56,13 @@ export const ProjectData =[
         title: "Car Rental Managaement System",
         category: "web",
         link:"https://github.com/Ragu162004/Car-Rental-Managament-System"
+    },
+    {
+        id:8,
+        image: terraform,
+        title: "Terraform AWS credential Creation",
+        category: "other",
+        link:"https://github.com/Ragu162004/aws_credential_creation"
     }
 ];
 export const projectsNav =[
@@ -74,5 +81,8 @@ export const projectsNav =[
     {
         name: 'AR-VR',
     }, 
+    {
+        name : 'other'
+    }
 ];
 
