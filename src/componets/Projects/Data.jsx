@@ -20,7 +20,7 @@ export const ProjectData = [
         image: arvr,
         title: "Guest House Booking - VR",
         category: "AR-VR",
-        link: "https://www.linkedin.com/posts/nikilhari-r-767568259_machinelearning-movierecommendations-streamlit-activity-7172255696355254272-XIyr?utm_source=share&utm_medium=member_desktop",
+        link: "https://www.linkedin.com/posts/ragulandiranm_kechackathon-activity-7192171554498093056-jISj?utm_source=share&utm_medium=member_desktop",
     },
     {
         id: 3,
