@@ -1,0 +1,145 @@
+.home__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5.5rem;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+}
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.home__social-icon:hover {
+    color: var(--title-color-dark);
+}
+
+.home__title {
+    font-size: var(--big-font);
+    margin-bottom: 0.58rem;
+}
+
+.home__hand {
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+.home__hand:hover {
+    animation: handshake 1.5s ease-in-out 0.1s 3;
+}
+
+@keyframes handshake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-20deg);
+    }
+    80% {
+        transform: rotate(20deg);
+    }
+}
+.home__subtitle {
+    position: relative;
+    font-size: var(--h3-font);
+    padding-left: 5.4rem;
+    font-weight: var(--font-normal);
+    margin-bottom: 1rem;
+}
+
+.home__subtitle::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 1rem;
+}
+
+.home__description {
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.home__img {
+    background: url(../../assets/profile.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: var(--profile-box-shadow);
+    order: 1;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    animation: profile_animation 7s ease-in-out infinite 0s;
+    filter: grayscale(50%);
+}
+
+@keyframes profile_animation {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.home__scroll {
+    margin-left: 9.25rem;
+
+    .wheel {
+        animation: scrollanim 2s ease infinite 0s;
+    }
+}
+
+@keyframes scrollanim {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+.home__scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .home__content {
+        justify-content: center;
+    }
+
+    .home__img {
+        order: 0;
+    }
+}
