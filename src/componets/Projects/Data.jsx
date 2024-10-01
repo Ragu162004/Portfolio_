@@ -1,5 +1,5 @@
 import king from "../../assets/king.png";
-import tomatix from "../../assets/original-46e3d3ab-e452-488d-a218-e8064ea10ea4.webp";
+import tomatix from "../../assets/tomatix.png";
 import crisper from "../../assets/crisper.png";
 import arvr from "../../assets/1723362861389.gif";
 import patientimg from "../../assets/WhatsApp Image 2024-06-11 at 20.46.05_1615eed4.jpg";
