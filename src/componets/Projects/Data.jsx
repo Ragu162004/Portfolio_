@@ -3,6 +3,7 @@ import tomatix from '../../assets/original-46e3d3ab-e452-488d-a218-e8064ea10ea4.
 import crisper from '../../assets/crisper.png'
 import arvr from '../../assets/1723362861389.gif'
 import Work4 from '../../assets/work4.png';
+import patientimg from '../../assets/WhatsApp Image 2024-06-11 at 20.46.05_1615eed4.jpg';
 import linkup from '../../assets/linkup.png'
 
 
@@ -37,7 +38,7 @@ export const ProjectData =[
     },
     {
         id:5,
-        image: Work4,
+        image: patientimg,
         title: "Patient Records Maintanences",
         category: "web",
         link:"https://github.com/Ragu162004/Patients_Record"
