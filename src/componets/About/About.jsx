@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Aboutimg from "../../assets/profile.jpg"
+import Aboutimg from "../../assets/profile_1.jpg"
 import Info from './Info'
 import CV from '../../assets/CV.pdf'
 //5
